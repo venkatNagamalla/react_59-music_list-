@@ -1,0 +1,38 @@
+.banner-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  height: 50vh;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0px 0px 25px 55px;
+}
+
+.banner-heading {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 410;
+}
+
+.banner-text {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .banner-container {
+    height: 70vh;
+    padding: 0px 0px 45px 75px;
+  }
+  .banner-heading {
+    font-size: 40px;
+  }
+  .banner-text {
+    font-size: 32px;
+  }
+}
